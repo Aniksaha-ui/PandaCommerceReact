@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Ecommerce Website</title>
+
+    <!-- bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- custom css end -->
+
+
+    <!-- font aswome stylesheet -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- font aswome stylesheet end-->
+
+
+</head>
+
+<body style="background-color: rgb(239, 242, 247);">
+
+    <header>
+        <!-- nav section -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#product">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contract">Contract Us</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <!-- nav section  -->
+
+        <!-- fixed bottom navbar -->
+
+        <nav class="d-lg-none d-md-none container navbar navbar-inverse fixed-bottom navbar-dark bg-primary">
+            <div class="container">
+                <a class=" navbar-brand" href="#">
+                    <i class="fa fa-home"></i>
+                </a>
+
+                <a class="navbar-brand" href="#">
+                    <i class="fa fa-product-hunt"></i>
+                </a>
+
+                <a href="#" class="navbar-brand">
+                    <i class="fa fa-shopping-cart"></i>
+                </a>
+
+                <a class="navbar-brand" href="#">
+                    <i class="fa fa-sign-in"></i>
+                </a>
+
+                <a class="navbar-brand" href="#">
+
+                    <i class="fa fa-user-circle"></i>
+                </a>
+
+
+
+            </div>
+        </nav>
+        <!-- fixed bottom navbar end -->
+
+
+        <!-- image slider -->
+        <section class="container p-5 mt-5 bg-white">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row  d-flex align-items-center">
+                            <div class="col-lg-7 col-md-7">
+                                <h1>Mi LED TV 4A PRO 32</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse maiores incidunt in
+                                    nihil provident, dolor voluptatem ea quia itaque. Officia, mollitia eius
+                                    exercitationem delectus excepturi itaque ipsum sequi ad quibusdam.</p>
+                                <h1>$1289</h1>
+                                <button class="panda-buy-button">Buy now</button>
+                            </div>
+                            <div class="col-lg-5 col-md-5">
+                                <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-lg-7 col-md-7">
+                                <h1> LED TV 4A PRO 32</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sapiente dolor magni
+                                    exercitationem laborum beatae!</p>
+                                <h1>$1289</h1>
+                                <button class="panda-buy-button">Buy now</button>
+                            </div>
+                            <div class="col-lg-5 col-md-5">
+                                <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-lg-7 col-md-5">
+                                <h1>Mi XBOX Premium</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sapiente dolor magni
+                                    exercitationem laborum beatae!</p>
+                                <h1>$1289</h1>
+                                <button class="panda-buy-button">Buy now</button>
+                            </div>
+                            <div class="col-lg-5 col-md-5">
+                                <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- image slider end  -->
+
+    </header>
+
+    <main>
+        <!-- categories -->
+
+        <section class="container p-5 overflow-hidden bg-white mt-5">
+            <h1 class="text-center text-primary mb-5">Categories</h1>
+            <div class="row gy-3">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="p-3 border bg-warning d-flex align-items-center justify-content-between rounded-3">
+                        <h1 class="text-white">Watch</h1>
+                        <img width="70" src="images/categories/watch.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="p-3 border bg-info d-flex align-items-center justify-content-between rounded-3">
+                        <h1 class="text-white">Bag</h1>
+                        <img width="70" src="images/categories/bag.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="p-3 border bg-warning d-flex align-items-center justify-content-between rounded-3">
+                        <h1 class="text-white">Shoes</h1>
+                        <img width="70" src="images/categories/shoes.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- categories end -->
+
+        <!-- shoes section -->
+        <section class="container mt-5 p-5 bg-white">
+            <h1 class="text-center">Shoes</h1>
+            <br><br>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class="mx-auto p-5">
+                            <small class="text-muted">
+                                <div class="btn panda-buy-button btn-lg">Buy Now</div>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok Pump</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class="mx-auto p-5">
+                            <small class="text-muted">
+                                <div class="btn panda-buy-button btn-lg">Buy Now</div>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok All Terrain</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class="mx-auto p-5">
+                            <small class="text-muted">
+                                <div class="btn panda-buy-button btn-lg">Buy Now</div>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok All Terrain</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class="mx-auto p-5">
+                            <small class="text-muted">
+                                <div class="btn panda-buy-button btn-lg">Buy Now</div>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok All Terrain</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class="mx-auto p-5">
+                            <small class="text-muted">
+                                <div class="btn panda-buy-button btn-lg">Buy Now</div>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok All Terrain</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class="mx-auto p-5">
+                            <small class="text-muted">
+                                <div class="btn panda-buy-button btn-lg">Buy Now</div>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok All Terrain</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class="mx-auto p-5">
+                            <small class="text-muted">
+                                <div class="btn panda-buy-button btn-lg">Buy Now</div>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok All Terrain</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class="mx-auto p-5">
+                            <small class="text-muted">
+                                <div class="btn panda-buy-button btn-lg">Buy Now</div>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- shoes section -->
+
+        <!-- backpack section -->
+        <section id="product" class="container mt-5 p-5 bg-white">
+            <h1 class="text-center">Bags</h1>
+            <br><br>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class="mx-auto p-5">
+                            <small class="text-muted">
+                                <div class="btn panda-buy-button btn-lg">Buy Now</div>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok Pump</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class="mx-auto p-5">
+                            <small class="text-muted">
+                                <div class="btn panda-buy-button btn-lg">Buy Now</div>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok All Terrain</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class="mx-auto p-5">
+                            <small class="text-muted">
+                                <div class="btn panda-buy-button btn-lg">Buy Now</div>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok All Terrain</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class="mx-auto p-5">
+                            <small class="text-muted">
+                                <div class="btn panda-buy-button btn-lg">Buy Now</div>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok All Terrain</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class="mx-auto p-5">
+                            <small class="text-muted">
+                                <div class="btn panda-buy-button btn-lg">Buy Now</div>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok All Terrain</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class="mx-auto p-5">
+                            <small class="text-muted">
+                                <div class="btn panda-buy-button btn-lg">Buy Now</div>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok All Terrain</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class="mx-auto p-5">
+                            <small class="text-muted">
+                                <div class="btn panda-buy-button btn-lg">Buy Now</div>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok All Terrain</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class="mx-auto p-5">
+                            <small class="text-muted">
+                                <div class="btn panda-buy-button btn-lg">Buy Now</div>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- backpack section end -->
+
+        <!-- subscribe/contract us -->
+
+        <section id="contract" class="container p-5 mt-5 bg-white d-flex align-items-center justify-content-center">
+            <div>
+                <h2>Let's stay in touch</h2>
+                <p>Get updates on sales specials and more</p>
+                <form action="">
+                    <input class="form-control" type="text" placeholder="Enter Your Email"><br>
+                    <button class="btn panda-buy-button">Send</button>
+                </form>
+            </div>
+        </section>
+        <br><br><br><br>
+        <!-- subscribe/contract us -->
+    </main>
+
+    <footer class="container bg-dark text-white text-center">
+        <p><small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+    </footer>
+    <br><br><br>
+
+
+    <!-- bootstrap javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
